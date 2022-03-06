@@ -12,4 +12,13 @@ public class Facebook {
         }
     }
 
+    int getAge(String userPassword) {
+        //protecting the age with password
+        if (userPassword.equals(password)) {
+            return age;
+        } else {
+            return -1;
+        }
+    }
+
 }
