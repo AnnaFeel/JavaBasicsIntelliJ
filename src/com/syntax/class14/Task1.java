@@ -1,7 +1,7 @@
 package com.syntax.class14;
 
 public class Task1 {
-    //Create a method that will take 2 parameters as a numbers and returns which number is larger.
+    //Create a method that will take 2 parameters as a numbers and returns which number is which number is larger.
 
     void printLarger(int num1, int num2) {
         if (num1>num2) {
